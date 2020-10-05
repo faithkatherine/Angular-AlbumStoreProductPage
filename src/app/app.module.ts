@@ -13,12 +13,12 @@ import { ProductListComponent } from './product-list/product-list.component';
 
 const appRoutes:Routes= [
   {
-    "path": "products",
+    path: "products",
     component:ProductListComponent
   },
 
   {
-    "path": "product/:id",
+    path: "product/:id",
     component:ProductPageComponent
   },
 
